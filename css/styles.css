@@ -65,3 +65,6 @@ nav{
     background-color: slateblue;
     color:white;
 }
+.myButton:hover{
+    transform: scale(1.5);
+}

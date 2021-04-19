@@ -11,14 +11,27 @@
 <nav class="navbar navbar-light">
     <img src="images/866-8665346_fortnite-youtube-banner.png" class="nav-banner"/>
 <ul>
-    <li class="nav-link"><a href="index.html">Home</a></li>
-    <li class="nav-link"><a href="./tips.html">Tips and Tricks</a></li>
-    <li class="nav-link"><a href="index.html">Page 3</a></li>
-    <li class="nav-link"><a href="http://fortnitestats.azurewebsites.net">Fortnite Stats Lookup</a></li>
-    <li class="nav-link"><a href="index.html">About Me</a></li>
+    <li class="nav-link"><a href="index.html"><button class="myButton myButton-red">Home</button></a></li>
+    <li class="nav-link"><a href="./tips.html"><button class="myButton myButton-red">Tips</button></a></li>
+    <li class="nav-link"><a href="index.html"><button class="myButton myButton-red">Page 3</button></a></li>
+    <li class="nav-link"><a href="http://fortnitestats.azurewebsites.net" target="_blank"><button class="myButton myButton-red">Lookup Stats</button></a></li>
+    <li class="nav-link"><a href="index.html"><button class="myButton myButton-red">About Me</button></a></li>
 </ul>
 </nav>
 <body>
+
     This is tips and tricks page
+
+    <div id="scripted">
+
+    </div>
 </body>
+<script>
+   document.getElementById("scripted").innerHTML="<button>Submit</button>";
+   var btns=document.body.getElementsByTagName("button");
+
+   btns[5].innerHTML="haha, just kidding";
+   btns[5].style.backgroundColor="red";
+    
+</script>
 </html>

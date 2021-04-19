@@ -68,3 +68,9 @@ nav{
 .myButton:hover{
     transform: scale(1.5);
 }
+.move{
+    position: relative;
+}
+.no-wrap{
+    overflow: hidden;
+}
